@@ -28,10 +28,7 @@ namespace Calculator_xUnit
 
 
         
-        public void Add()
-        {
-
-            try
+       try
             {
                 Console.WriteLine("Enter two number to add");
                 Console.WriteLine("First number:")
@@ -48,12 +45,9 @@ namespace Calculator_xUnit
                 utils.CatchWarrning();
             };
 
-        }
+       
 // --------------------------------------------------------------------
-        public void Minus()
-        {
-
-            try
+        try
             {
                 Console.WriteLine("Enter two number to substruct");
                 Console.WriteLine("First number:")
@@ -72,10 +66,7 @@ namespace Calculator_xUnit
 
 // -------------------------------------------------------------------------
 
-        public void Mult()
-        {
-
-            try
+       try
             {
                     Console.WriteLine("Enter two number to Multiply");
                     Console.WriteLine("First number:")
@@ -93,10 +84,7 @@ namespace Calculator_xUnit
                 };
 
 //--------------------------------------------------------------------------------
-            public void Div()
-            {
-
-                try
+          try
                 
                 {
                     Console.WriteLine("Enter two number to Devide");
@@ -115,7 +103,7 @@ namespace Calculator_xUnit
                 };
 
             
-            }
+            
 
         }
 
