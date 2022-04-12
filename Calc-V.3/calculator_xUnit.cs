@@ -23,8 +23,8 @@ namespace Calculator_xUnit
         util = new Utils();
 
 
-        userNumber1 = utils.ConvertToDouble(number1);
-        userNumber2 = utils.ConvertToDouble(number2);
+        userNumber1 = (utils).Convert.ToDouble(number1);
+        userNumber2 = (utils).Convert.ToDouble(number2);
 
 
         
