@@ -20,7 +20,7 @@ namespace Calculator_xUnit
         double usernumber1;
         double usernumber2;
 
-        util = new Utils();
+        utils = new Utils();
 
 
         userNumber1 = (utils).Convert.ToDouble(number1);
